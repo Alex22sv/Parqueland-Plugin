@@ -1,0 +1,29 @@
+name: Parqueland
+version: '${project.version}'
+main: com.alex22sv.parqueland.Parqueland
+api-version: 1.16
+authors: [ Alex22_SV ]
+description: Plugin de utilidades para el servidor roleplay Parqueland.
+website: https://parqueland.ml/
+commands:
+  rayo:
+    usage: /rayo <jugador|todos|@a>
+    description: Lanza un rayo a un jugador.
+  adminmenu:
+    usage: /adminmenu
+    description: Abre el menú de admins para banear/expulsar/mutear/congelar jugadores.
+  reglas:
+    usage: /reglas
+    description: Obtén las reglas del servidor.
+  dioses:
+    usage: /dioses <jugador|todos|@a> <mensaje>
+    description: Envía mensajes como autor 'DIOSES'.
+  enviarobjeto:
+    usage: /enviarobjeto <jugador> <cantidad>
+    description: Envía una cantidad de objetos que tengas en la mano a otro jugador.
+  curar:
+    usage: /curar <jugador>
+    description: Cura a un jugador.
+  alimentar:
+    usage: /alimentar <jugador>
+    description: Quita el hambre a un jugador.

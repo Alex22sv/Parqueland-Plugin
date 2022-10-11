@@ -1,0 +1,21 @@
+# Bienvenidos a la configuración principal del plugin Parqueland.
+
+# Si deseas utilizar un mensaje personalizado al momento de entrar al servidor o desconectarse de él.
+# Cambia de "false" a "true" para activar el mensaje personalizado.
+# Puedes utilizar códigos de color.
+# Variables que puedes usar:
+# - "{JUGADOR}" para obtener el nombre del jugador.
+# - "{CONECTADOS}" para obtener la cantidad de jugadores conectados en el servidor.
+# - "{MAX}" para obtener la cantidad de jugadores máxima que puede tener el servidor.
+CustomJoinMessage:
+  enabled: false
+  joinMsg: "&d{JUGADOR}&a ha entrado al servidor."
+
+CustomQuitMessage:
+  enabled: false
+  quitMsg: "&d{JUGADOR}&a ha dejado el servidor."
+
+# Reglas del servidor
+### Formatos de color compatibles: https://minecraft.tools/es/color-code.php
+### Compatible con "Códigos de color de chat"
+ServerRules: "Reglas del servidor"
