@@ -55,7 +55,7 @@
     </build>
     <distributionManagement>
         <repository>
-            <id>releases</id>
+            <id>github</id>
             <name>GitHub</name>
             <url>https://github.com/Alex22sv/Parqueland-Plugin/releases</url>
         </repository>
