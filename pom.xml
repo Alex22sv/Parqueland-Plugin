@@ -53,7 +53,13 @@
             </resource>
         </resources>
     </build>
-
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>GitHub</name>
+            <url>https://github.com/Alex22sv/Parqueland-Plugin/releases</url>
+        </repository>
+    </distributionManagement>
     <repositories>
         <repository>
             <id>spigotmc-repo</id>
